@@ -1,0 +1,165 @@
+body, html {
+  font-family: "Open Sans", FontAwesome, sans-serif;
+  background-color: #FAFAFA;
+}
+
+img {
+  width: 400px;
+  height: auto;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+}
+
+.wrapper {
+  padding: 40px;
+  background-color: #2C3E51;
+}
+
+.navbar {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.navbar-toggler-icon {
+  color: #fff;
+}
+
+.nav-item{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-item:hover{
+  background-color:#48AADF;
+  border-radius: 15px;
+  transform:scale(0.9);
+}
+
+
+
+.search {
+  margin-top: 50px;
+
+  padding-bottom: 100px;
+}
+
+.searchbar {
+  padding: 1.5rem;
+}
+
+.fas {
+  font-style: normal;
+}
+
+.far {
+  font-style: normal;
+  color:#00bd56;
+
+}
+
+
+
+.cols {
+  position: relative;
+  border: 1px solid #dee1e3;
+  padding: 5px 30px;
+  margin: 8px;
+  color: black;
+  border-radius: 5px;
+  background-color: #fff;
+  justify-content: center;
+
+}
+
+.cols:hover{
+  border: 1px solid #00bd56;
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+
+}
+
+
+.header-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.categories {
+  z-index: 100;
+  margin-top: -50px;
+  margin-bottom: 100px;
+
+}
+
+.icons{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+
+.articles{
+  margin-top: 2em;
+}
+.articles_count{
+  font-size: 0.8rem;
+  color: #00bd56;
+  text-align: center;
+  line-height: 0.1;
+}
+
+.last_update{
+  font-size: 0.7rem;
+  color: #888c8f;
+  text-align: center;
+}
+
+.modal-content{
+  padding: 20px;
+}
+
+.modal-header > h2{
+  text-align: center;
+}
+
+.btn-secondary{
+  background-color: #c75d56;
+  border: none;
+
+}
+
+.btn-primary{
+  background-color: #48AADF;
+  border: none;
+}
+
+.btn-primary:hover{
+  background-color: #80d868;
+  transform: scale(0.9);
+
+
+}
+.btn-secondary:hover{
+  transform: scale(0.9);
+}
+
+footer{
+ text-align: center;
+ color: #000;
+
+}
+
+
+.link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
