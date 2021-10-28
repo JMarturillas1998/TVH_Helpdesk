@@ -59,6 +59,7 @@ h1 {
 
 .fas {
   font-style: normal;
+  color:green;
 }
 
 .far {
@@ -70,4 +71,100 @@ h1 {
 
 .breadcumb-wrapper{
   margin-top: 30px;
+}
+
+.category_pane{
+  border: 1px solid;
+  margin: 10px;
+}
+
+
+
+.category_pane{
+  border: 1px solid #dee1e3;
+  padding: 5px 50px;
+  color: black;
+  border-radius: 5px;
+  background-color: #fff;
+
+}
+
+
+
+
+.category_pane:hover{
+  border: 1px solid #00bd56;
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+
+}
+
+
+.header-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.categories {
+  z-index: 100;
+  margin-top: -50px;
+  margin-bottom: 100px;
+
+}
+
+.icons{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+
+.articles{
+  margin-top: 2em;
+}
+.articles_count{
+  font-size: 0.8rem;
+  color: #00bd56;
+  text-align: center;
+  line-height: 0.1;
+}
+
+.last_update{
+  font-size: 0.7rem;
+  color: #888c8f;
+  text-align: center;
+}
+
+
+.articles_pane{
+
+  border: 1px solid #dee1e3;
+  padding: 20px;
+  color: black;
+  border-radius: 5px;
+  background-color: #fff;
+  margin: 10px 20px;
+}
+
+.articles_pane > div {
+  padding: 10px;
+}
+
+.last_update2{
+  font-size: 0.7rem;
+  color: #888c8f;
+  line-height: 0.5;
+}
+
+.articles_title{
+  color: green;
+}
+
+
+.articles_pane:hover{
+  border: 1px solid #00bd56;
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+
 }

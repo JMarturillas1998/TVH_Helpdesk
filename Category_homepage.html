@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Bootstrap CSS -->
-    <link rel="shortcut icon" type="image/jpg" href="favicon.png"/>
+  <link rel="shortcut icon" type="image/jpg" href="favicon.png" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="category_page.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -54,37 +54,200 @@
 
   <div class="container breadcumb-wrapper">
 
-<nav aria-label="breadcrumb">
+    <nav aria-label="breadcrumb">
 
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="#">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Google Apps</li>
-  </ol>
-</nav>
-    </div>
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Google Apps</li>
+      </ol>
+    </nav>
+  </div>
 
-<div class="container">
+  <div class="container">
+    <div class="row ">
+      <div class="col-lg-3 col-md-3">
+        <div class="category_pane">
+          <div class="d-flex justify-content-center icons">
+            <p>
+              <i class="far fa-bookmark fa-3x"></i>
+            </p>
+          </div>
+          <div class="header">
+            <h1 class="header-title">Google Apps</h1>
+          </div>
 
-  <div class="article">
-
-    <div class="icon">
-
-      </div>
-
-    <div class="article_title">
+          <div class="articles">
+            <p class="articles_count">No. of articles</h1>
+            <p class="last_update">Last Updated: 18 days Ago</h1>
+          </div>
 
         </div>
 
-    <div class="last_Updated">
 
-            </div>
+      </div>
 
+      <div class="col-lg-8 col-md-7">
+        <div class="row articles_pane">
+
+          <div class="col icon">
+            <i class="fas fa-clipboard fa-2x"></i></i>
+          </div>
+          <div class="col-10 Title">
+            <p class="articles_title">
+              How To Create A Campaign in ActiveCampaign
+            </p>
+
+            <p class="last_update2">
+              Last Update: 20 mins ago
+            </p>
+
+          </div>
+
+          <div class="col arrow">
+            <i class="fas fa-chevron-right"></i>
+
+          </div>
+
+        </div>
+
+        <div class="row articles_pane">
+
+          <div class="col icon">
+            <i class="fas fa-clipboard fa-2x"></i></i>
+          </div>
+          <div class="col-10 Title">
+            <p class="articles_title">
+              How To Create A Campaign in ActiveCampaign
+            </p>
+
+            <p class="last_update2">
+              Last Update: 20 mins ago
+            </p>
+
+          </div>
+
+          <div class="col arrow">
+            <i class="fas fa-chevron-right"></i>
+
+          </div>
+
+        </div>
+
+        <div class="row articles_pane">
+
+          <div class="col icon">
+            <i class="fas fa-clipboard fa-2x"></i></i>
+          </div>
+          <div class="col-10 Title">
+            <p class="articles_title">
+              How To Create A Campaign in ActiveCampaign
+            </p>
+
+            <p class="last_update2">
+              Last Update: 20 mins ago
+            </p>
+
+          </div>
+
+          <div class="col arrow">
+            <i class="fas fa-chevron-right"></i>
+
+          </div>
+
+        </div>
+
+        <div class="row articles_pane">
+
+          <div class="col icon">
+            <i class="fas fa-clipboard fa-2x"></i></i>
+          </div>
+          <div class="col-10 Title">
+            <p class="articles_title">
+              How To Create A Campaign in ActiveCampaign
+            </p>
+
+            <p class="last_update2">
+              Last Update: 20 mins ago
+            </p>
+
+          </div>
+
+          <div class="col arrow">
+            <i class="fas fa-chevron-right"></i>
+
+          </div>
+
+        </div>
+
+
+              <div class="container">
+                <div class="modal" id="myModal">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h2 class="modal-title style=" text-align: center;""> Submit a ticket</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+
+                      <div class="modal-body">
+                        <form>
+                        <div class="mb-3">
+                          <label for="full_name" class="form-label">Name</label>
+                          <input type="text" class="form-control" id="full_name" placeholder="Enter your fullname" required>
+                        </div>
+                        <div class="mb-3">
+                          <label for="email_address" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="email_address" placeholder="name@example.com" required>
+                        </div>
+                        <div class="mb-3">
+                          <label for="ticket_Content" class="form-label">Message</label>
+                          <textarea class="form-control" id="ticket_Content" rows="3" placeholder="How can we help you?" required></textarea>
+                        </div>
+
+                        <div class="mb-3">
+                          <label for="loom_URL" class="form-label">Loom URL</label>
+                          <input class="form-control" type="URL" id="loom_URL" multiple>
+                        </div>
+
+                        <div class="mb-3">
+                          <label for="formFileMultiple" class="form-label">Attach images</label>
+                          <input class="form-control" type="file" id="formFileMultiple" multiple>
+                        </div>
+
+                      </div>
+
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </div>
+
+                      </form>
+
+
+                    </div>
+
+                  </div>
+                </div>
 
     </div>
+
+
+
+
 
   </div>
 
 
 
-  </body>
-  </html>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
